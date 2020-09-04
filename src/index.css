@@ -1,13 +1,84 @@
+@font-face {
+  font-family: 'Metropolis-Black';
+  src: local('Metropolis-Black'), url(./Assets/Fonts/Metropolis/Metropolis-Black.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Metropolis-BlackItalic';
+  src: local('Metropolis-BlackItalic'), url(./Assets/Fonts/Metropolis/Metropolis-BlackItalic.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Metropolis-Bold';
+  src: local('Metropolis-Bold'), url(./Assets/Fonts/Metropolis/Metropolis-Bold.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Metropolis-BoldItalic';
+  src: local('Metropolis-BoldItalic'), url(./Assets/Fonts/Metropolis/Metropolis-BoldItalic.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Metropolis-ExtraBold';
+  src: local('Metropolis-ExtraBold'), url(./Assets/Fonts/Metropolis/Metropolis-ExtraBold.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Metropolis-ExtraBoldItalic';
+  src: local('Metropolis-ExtraBoldItalic'), url(./Assets/Fonts/Metropolis/Metropolis-ExtraBoldItalic.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Metropolis-ExtraLight';
+  src: local('Metropolis-ExtraLight'), url(./Assets/Fonts/Metropolis/Metropolis-ExtraLight.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Metropolis-ExtraLightItalic';
+  src: local('Metropolis-ExtraLightItalic'), url(./Assets/Fonts/Metropolis/Metropolis-ExtraLightItalic.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Metropolis-LightItalic';
+  src: local('Metropolis-LightItalic'), url(./Assets/Fonts/Metropolis/Metropolis-LightItalic.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Metropolis-Medium';
+  src: local('Metropolis-Medium'), url(./Assets/Fonts/Metropolis/Metropolis-Medium.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Metropolis-MediumItalic';
+  src: local('Metropolis-MediumItalic'), url(./Assets/Fonts/Metropolis/Metropolis-MediumItalic.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Metropolis-Light';
+  src: local('Metropolis-Light'), url(./Assets/Fonts/Metropolis/Metropolis-Light.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Metropolis-Regular';
+  src: local('Metropolis-Regular'), url(./Assets/Fonts/Metropolis/Metropolis-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Metropolis-RegularItalic';
+  src: local('Metropolis-RegularItalic'), url(./Assets/Fonts/Metropolis/Metropolis-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Metropolis-SemiBold';
+  src: local('Metropolis-SemiBold'), url(./Assets/Fonts/Metropolis/Metropolis-SemiBold.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Metropolis-SemiBoldItalic';
+  src: local('Metropolis-SemiBoldItalic'), url(./Assets/Fonts/Metropolis/Metropolis-SemiBoldItalic.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Metropolis-Thin';
+  src: local('Metropolis-Thin'), url(./Assets/Fonts/Metropolis/Metropolis-Thin.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Metropolis-ThinItalic';
+  src: local('Metropolis-ThinItalic'), url(./Assets/Fonts/Metropolis/Metropolis-ThinItalic.otf) format('truetype');
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue','sans-serif','Metropolis-Black','Metropolis-BlackItalic','Metropolis-Bold’,'Metropolis-BoldItalic','Metropolis-ExtraBold', 'Metropolis-ExtraBoldItalic’, 'Metropolis-ExtraLight’, 'Metropolis-ExtraLightItalic’, 'Metropolis-LightItalic’, 'Metropolis-Medium’, 'Metropolis-MediumItalic’, 'Metropolis-Light’, 'Metropolis-Regular’, 'Metropolis-RegularItalic’,'Metropolis-SemiBold','Metropolis-SemiBoldItalic','Metropolis-Thin','Metropolis-ThinItalic';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New,
     monospace;
 }
